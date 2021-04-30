@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>TrueVote</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+    <!-- TODO: Step 1: Include Fortmatic SDK Script -->
+ <script src="https://cdn.jsdelivr.net/npm/fortmatic@latest/dist/fortmatic.js"></script>
+    <!-- End Step 1 -->
+  </head>
+
+  <body>
+    <div class="container">
+      <img alt="logo" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNSAwSDIyLjVIMzBWNy41MTA3NEgyMi41SDE1SDcuNVYxNS4wMjJWMTUuNTAzNFYyMi40ODkzVjIyLjUzMjdWMzBIMFYyMi41MzI3VjIyLjQ4OTNWMTUuNTAzNFYxNS4wMjJWNy41MTA3NFYwSDcuNUgxNVpNMjIuNSAyMi40ODg4SDE1LjA0M1YxNS4wMjE1SDI5Ljk5NDFWMjIuNzUxNUMyOS45OTQxIDI0LjY3MjkgMjkuMjMyNCAyNi41MTYxIDI3Ljg3NyAyNy44NzVDMjYuNTE5NSAyOS4yMzQ0IDI0LjY3OTcgMjkuOTk4NSAyMi43NjE3IDI5Ljk5OTVIMjIuNVYyMi40ODg4WiIgZmlsbD0id2hpdGUiIGZpbGwtb3BhY2l0eT0iMC4xIi8+Cjwvc3ZnPgo="
+      />
+      <h1>TrueVote ❤️</h1>
+      <div class="divider"></div>
+      <h2>Election/Voting Status</h2>
+      <input id="lotteryStatus" type="string" name="status" disabled/>
+      <input id="btn-startStopLottery" type="button" value=" "/>
+      <div class="divider"></div>
+      <h1>TrueVote - New Candidate ❤️</h1>
+      <h2>Enter Candidate's Aadhaar Number</h2>
+      <input id="input-amount" type="number" name="amount" />
+      <h2>Enter Candidate's Full Name</h2>
+      <input id="full-name" type="string" name="name" />
+      <h2>Enter Candidate's Age (Greater than 35)</h2>
+      <input id="age" type="number" name="age" />
+      <h2>Enter Candidate's Associated Party Name</h2>
+      <input id="party" type="string" name="party" />
+      <input id="btn-register" type="button" value="Register Candidate"/>
+      <div class="divider"></div>
+      <h1>TrueVote - Previous Winner ❤️</h1>
+      <input id="btn-getWinner" type="button" value="View Last Winner"/>
+    </div>
+    <script src="./js/admin.js"></script>
+    
+  </body>
+
+</html>

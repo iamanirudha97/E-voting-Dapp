@@ -1,0 +1,318 @@
+html,
+body {
+  background-color: #211f2b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.divider {
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #617bff;
+}
+
+input,
+textarea {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin: 0;
+  border-radius: 7px;
+  border: 2px white solid;
+  background-color: white;
+  padding: 10px 20px;
+  width: 100%;
+  color: #1e1c29;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px #617bff solid;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 14px;
+  padding: 30px 30px 20px 30px;
+  margin-top: 50px;
+}
+
+input[name="amount"] {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn-send {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-send:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+#btn-checkToken {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-checkToken:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+#btn-addToken {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-addToken:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+
+#btn-check {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-check:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+
+#btn-about {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-about:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+
+#btn-checkStatus {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-checkStatus:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+
+#btn-startStopLottery {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-startStopLottery:hover {
+  border: 2px #8095ff solid;
+  background-color: #8095ff;
+}
+
+#btn-register {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-register:hover {
+  border: 2px #f1f1f1 solid;
+  background-color: #8095ff;
+}
+
+#btn-getWinner {
+  display: block;
+  text-decoration: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px #524C6D solid;
+  color: white;
+  background-color: #524C6D;
+  padding: 15px;
+  transition: all 0.2s;
+}
+
+#btn-getWinner:hover {
+  border: 2px #ffffff solid;
+  background-color: #8095ff;
+}
+
+textarea[name="address"] {
+  resize: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 2.7rem;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+}
+
+
+.amountRadios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem 0 2rem 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.amountRad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radioButton {
+  margin: 0 4px 8px 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+.header {
+  width: 100%;
+  background-color: #524C6D;
+  height: 3rem;
+  margin: 0 0 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.navComp a {
+  cursor: pointer;
+  color:#f1f1f1;
+}
+
+.navComp:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navComp:last-child {
+  border-right: none;
+}
